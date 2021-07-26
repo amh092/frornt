@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Kumbh Sans", sans-serif;
+  src: url("../../build/fonts/KumbhSans-Bold.ttf") format("ttf");
+  src: url("../../build/fonts/KumbhSans-Light.ttf") format("ttf");
+  src: url("../../build/fonts/KumbhSans-Regular.ttf") format("ttf");
+}
+.btn {
+  cursor: pointer;
+}
+
+.btn-1 {
+  cursor: pointer;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.75em;
+  text-align: center;
+  border-radius: 1.75em;
+  width: 10.6875em;
+  height: 3.5em;
+  border: none;
+  outline: none;
+}
+
+.btn-2 {
+  cursor: pointer;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.75em;
+  text-align: center;
+  border-radius: 1.75em;
+  width: 10.6875em;
+  height: 3.5em;
+  border: none;
+  outline: none;
+}
+
+.btn-3 {
+  cursor: pointer;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.75em;
+  text-align: center;
+  border-radius: 1.75em;
+  width: 10.6875em;
+  height: 3.5em;
+  border: none;
+  outline: none;
+}
+
+.btn-1 {
+  background: #5274ff;
+  color: #fff;
+}
+
+.btn-1:hover {
+  background: #829cff;
+  color: #fff;
+}
+
+.btn-2 {
+  background: rgba(82, 116, 255, 0.15);
+  mix-blend-mode: normal;
+  color: #5175ff;
+}
+
+.btn-2:hover {
+  background: rgba(82, 116, 255, 0.25);
+}
+
+.btn-3 {
+  background: #fff;
+  color: #5274ff;
+}
+
+.btn-3:hover {
+  background: #fff;
+  color: #8099ff;
+}
+
+/*# sourceMappingURL=style.css.map */
