@@ -1,0 +1,92 @@
+.heading-1 {
+    font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: bold;
+line-height: 48px;
+text-align: center;
+direction: ltr;
+white-space: pre-line;
+}
+
+.heading-2 {
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: normal;
+font-size: .9375em;
+line-height: 28px;
+
+}
+
+.heading-3 {
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: bold;
+line-height: 48px;
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+
+.body-1 {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    
+    color: #747B95;
+
+}
+
+.body-2 {
+    font-family: Kumbh Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+}
+
+.empty-text-field {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747B95;
+}
+
+.error-text-field {
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #F05B5B;
+}
+
+.filled-text-field {
+    font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #333950;
+}
+
+.white-space-pre-line {
+    white-space: pre-line;
+}
+
+.bold-font {
+    font-weight: bold ;
+}
+
+.font-opacity {
+    opacity: 0.75;
+}
+
+.text-align-left {
+    text-align: left;
+}

@@ -1,54 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="../build/styles/style.css">
-  <title>Frontend Mentor | Officelite coming soon site</title>
-</head>
-<body> 
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../build//styles/normalize.css" />
+    <link rel="stylesheet" href="../build/styles/style.css" />
+    <title>Frontend Mentor | Officelite coming soon site</title>
+  </head>
+  <body>
+    <!-- wrapper class starts -->
+    <div class="wrapper">
+      <!-- circle background bg pattern header-->
+      <div class="background">
+        <img
+        src="../build/assets/home/bg-pattern-header.svg" alt=""class="upper-background"/>
+      <div class="logo">
+        </div>
+        <figure alt="logo Officelite " class="flex-center-row">
+          <img src="../build/assets/shared/logo.svg" alt="" class="logo-img" />
+        </figure>
+      </div>
+      <!-- starts of simple solution text and images-->
+      <div class="simple-solution-chart-text-container flex-center-col">
+        <figure class="flex-center-row">
+          <img
+            src="../build/assets/home/illustration-charts.svg"alt="illusration "class="chart"/>
+        </figure> 
 
-  <button class="btn-2"> button2</button>
-  A simple solution to complex tasks is coming soon
+        <section class="simple-solution">
 
-  Say goodbye to inefficient juggling of multiple apps, teams, and projects. Officelite is the new 
-  collaboration platform built with an intuitive interface to improve productivity.
+          <p class="heading-1">
+            A simple solution 
+            to complex tasks 
+            is coming soon
+          </p>
+  
+          <p class="body-1">
+            Say goodbye to inefficient juggling of multiple apps, teams, and
+            projects. Officelite is the new collaboration platform built with an
+            intuitive interface to improve productivity.
+          </p>
+          <div class="button-container flex-center-row">
+            <button class="btn-1">Get Started</button>
+          </div>
+        </section>
+      </div>
+<!-- footer and packs starts -->
+        <div class="packs margin-top-100px">
+          
+           <div class="basic flex-center-col">
+          <h1 class="heading-2">Basic</h1>
+          
+          <h1 class="heading-1 bold-font ">
+            Free
+          </h1>
+            <h1 class="body-1 margin-top-8px">
+              Up to 5 users for free
+            </h1>
+             <h1 class="body-1  margin-top-56px font-opacity ">
+               Basic document collaboration
+             </h1>
+             <h1 class="body-1 margin-top-16px font-opacity ">
+               2 gb storage
+             </h1>
+             <h1 class="body-1 margin-top-16px font-opacity ">
+               Great security and support
+             </h1>
 
-  Get Started
+             <button class="btn-2 margin-top-32px ">Try for Free</button>
+        </div>
+        <div class=" pro flex-center-col">
+          <img src="../build/assets/home/bg-pattern-pricing.svg" alt="" class="pricing-bg">
+          <h1 class="heading-2 white-text">
+            Pro
+          </h1>
+          <h1 class="heading-1 margin-top-40p white-text">
+          	$9.99
+          </h1> 
+          <h1 class="body-1 margin-top-8px white-text">
+            Per user, billed monthly
+          </h1>
+          <h1 class="body-1  margin-top-56px white-text font-opacity ">
+            All essential integrations
+          </h1>
+          <h1 class="body-1 margin-top-16px white-text font-opacity ">
+            50 gb
+          </h1>
+          <h1 class="body-1 margin-top-16px white-text font-opacity ">
+            storage More control and insights
+          </h1>
+           <button class="btn-3">
+             Try for Free
+           </button>
+        </div>
+        <div class="ultimate">
+          Ultimate $19.99 Per user, billed monthly Robust work management 100 gb
+          storage VIP support Try for Free
+        </div>
+        <div class="timer">
+          <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
+          Coming 4 Nov 2020
 
-  Basic
-  Free
-  Up to 5 users for free
-  Basic document collaboration
-  2 gb storage
-  Great security and support
-  Try for Free
-
-  Pro
-  $9.99
-  Per user, billed monthly
-  All essential integrations
-  50 gb storage
-  More control and insights
-  Try for Free
-
-  Ultimate
-  $19.99
-  Per user, billed monthly
-  Robust work management
-  100 gb storage
-  VIP support
-  Try for Free
-
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
-
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
-  Get Started
-</body>
+          <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
+          47 Days 07 Hours 56 Min 14 Sec Get Started
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

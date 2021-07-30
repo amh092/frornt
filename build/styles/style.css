@@ -1,9 +1,146 @@
 @font-face {
-  font-family: "Kumbh Sans", sans-serif;
-  src: url("../../build/fonts/KumbhSans-Bold.ttf") format("ttf");
-  src: url("../../build/fonts/KumbhSans-Light.ttf") format("ttf");
-  src: url("../../build/fonts/KumbhSans-Regular.ttf") format("ttf");
+  font-family: "Kumbh Sans";
+  src: url("../../build/fonts/KumbhSans-Bold.ttf");
+  src: url("../../build/fonts/KumbhSans-Light.ttf");
+  src: url("../../build/fonts/KumbhSans-Regular.ttf");
 }
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 a,
+p, li, figure {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-center-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-col {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-top-8px {
+  margin: 0.5em 0 0 0;
+}
+
+.margin-top-16px {
+  margin-top: 1em;
+}
+
+.margin-top-32px {
+  margin-top: 2em;
+}
+
+.margin-top-40px {
+  margin: 2.5em 0 0 0;
+}
+
+.margin-top-56px {
+  margin-top: 3.5em;
+}
+
+.margin-top-100px {
+  margin-top: 6.25em;
+}
+
+.heading-1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  direction: ltr;
+  white-space: pre-line;
+}
+
+.heading-2 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9375em;
+  line-height: 28px;
+}
+
+.heading-3 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.body-1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #747B95;
+}
+
+.body-2 {
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.empty-text-field {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #747B95;
+}
+
+.error-text-field {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #F05B5B;
+}
+
+.filled-text-field {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333950;
+}
+
+.white-space-pre-line {
+  white-space: pre-line;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.font-opacity {
+  opacity: 0.75;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
 .btn {
   cursor: pointer;
 }
@@ -81,6 +218,115 @@
 .btn-3:hover {
   background: #fff;
   color: #8099ff;
+}
+
+.white-text {
+  color: #FFF;
+}
+
+body {
+  max-width: 23.4375em;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  position: relative;
+}
+
+.wrapper {
+  width: 23.4375em;
+  padding: 0 1.5em;
+}
+
+.btn-1 {
+  background: #5175ff;
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+  border-radius: 1.75em;
+}
+
+.logo {
+  position: relative;
+  margin: 2.875em 0 0 0;
+}
+
+.logo-img {
+  width: 9.6875em;
+  height: 1.875em;
+}
+
+.upper-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 23.4375em;
+  height: 23.4375em;
+  transform: translate(0%, -47%);
+  z-index: -1;
+}
+
+.chart {
+  width: 10.6875em;
+  height: 12em;
+}
+
+.logo-img {
+  width: 9.6875em;
+  height: 1.875rem;
+}
+
+.heading-1 {
+  font-size: 2.5em;
+}
+
+.heading-2 {
+  font-size: 1.25em;
+}
+
+.heading-3 {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.body-1, .body-2, .body-3 {
+  font-size: 1em;
+}
+
+.simple-solution-chart-text-container {
+  margin: 5em 0 0 0;
+}
+
+.simple-solution {
+  margin: 4em 0 0 0;
+}
+
+.simple-solution .body-1 {
+  margin: 1.5em 0 0 0;
+}
+
+.simple-solution .btn-1 {
+  margin: 1.5em 0 0 0;
+}
+
+.packs .basic, .packs .pro {
+  min-width: 20.4375em;
+  min-height: 31.75em;
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+  border-radius: 13px;
+  padding: 2.5em 3.3125em;
+  border: 1px solid gray;
+}
+
+.packs .pro {
+  background-color: #5274ff;
+  position: relative;
+}
+
+.pricing-bg {
+  position: absolute;
+  width: 20.4375em;
+  height: 31.75em;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
