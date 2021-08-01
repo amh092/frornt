@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Kumbh Sans";
-  src: url("../../build/fonts/KumbhSans-Bold.ttf");
-  src: url("../../build/fonts/KumbhSans-Light.ttf");
-  src: url("../../build/fonts/KumbhSans-Regular.ttf");
+  src: url("../fonts/KumbhSans-Bold.ttf");
+  src: url("../fonts/KumbhSans-Light.ttf");
+  src: url("../fonts/KumbhSans-Regular.ttf");
 }
 *, *::after, *::before {
   box-sizing: border-box;
