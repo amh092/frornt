@@ -226,6 +226,7 @@ p, li, figure {
 
 body {
   max-width: 23.4375em;
+  min-height: 183.25em;
   margin: 0 auto;
   background-color: #FAFAFA;
   position: relative;
@@ -265,6 +266,7 @@ body {
 .chart {
   width: 10.6875em;
   height: 12em;
+  margin: 4em 0 0 0;
 }
 
 .logo-img {
@@ -273,7 +275,11 @@ body {
 }
 
 .heading-1 {
-  font-size: 2.5em;
+  font-size: 3.5rem;
+}
+
+.heading-1-main {
+  font-size: 2.5rem;
 }
 
 .heading-2 {
@@ -289,12 +295,8 @@ body {
   font-size: 1em;
 }
 
-.simple-solution-chart-text-container {
-  margin: 5em 0 0 0;
-}
-
 .simple-solution {
-  margin: 4em 0 0 0;
+  margin: 3em 0 0 0;
 }
 
 .simple-solution .body-1 {
@@ -305,18 +307,35 @@ body {
   margin: 1.5em 0 0 0;
 }
 
-.packs .basic, .packs .pro {
+.packs {
+  position: relative;
+}
+
+.background-packs {
+  position: absolute;
+  background: #25293A url("../assets/home/bg-pattern-footer.svg");
+  width: 23.437em;
+  min-height: 78em;
+  top: 44%;
+  background-position: bottom;
+  background-size: 250%;
+  background-repeat: no-repeat;
+}
+
+.packs .basic, .packs .ultimate, .packs .pro {
   min-width: 20.4375em;
   min-height: 31.75em;
   box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
   border-radius: 13px;
   padding: 2.5em 3.3125em;
-  border: 1px solid gray;
+  z-index: 120;
+  background-color: #fff;
 }
 
 .packs .pro {
-  background-color: #5274ff;
   position: relative;
+  z-index: 120;
+  background: url("../assets/home/bg-pattern-pricing.svg") #5274ff center bottom;
 }
 
 .pricing-bg {
@@ -327,6 +346,65 @@ body {
   top: 0;
   left: 0;
   transform: translate(0, -50%);
+}
+
+.ultimate {
+  z-index: 120;
+}
+
+.timer {
+  min-width: 20.5em;
+  min-height: 15.875em;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 6.25em;
+}
+
+.coming-soon {
+  font-size: 1em;
+}
+
+.coming-soon span {
+  color: #5175FF;
+}
+
+.counter-card {
+  width: 4.5em;
+  height: 5.75em;
+  background: #333950;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-card h1:first-of-type {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 48px;
+  text-align: center;
+}
+
+.counter-card h1:last-of-type {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75em;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+  text-align: center;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.counter-cards-container {
+  justify-content: space-around;
+  min-width: 20.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
